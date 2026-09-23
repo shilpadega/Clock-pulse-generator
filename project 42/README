@@ -1,0 +1,80 @@
+# Clock Pulse Generator
+
+## 📌 Description
+
+The **Clock Pulse Generator** is a simple digital circuit designed using **Verilog HDL**. It generates a continuous periodic clock pulse when the enable signal is active.
+
+## 🎯 Features
+
+* Generates periodic clock pulses.
+* Enable/disable clock generation.
+* Simple Verilog HDL implementation.
+* Includes a testbench for verification.
+* Includes simulation waveform.
+
+## 🛠️ Technologies Used
+
+* Verilog HDL
+* Digital Logic Design
+* Simulation and Verification
+
+## 📂 Project Structure
+
+```text
+Clock-Pulse-Generator/
+│
+├── README.md
+├── clock_pulse_generator.v
+├── clock_pulse_generator_tb.v
+└── simulation/
+    └── waveform.png
+```
+
+## ⚙️ Working Principle
+
+1. The `enable` signal controls the clock generator.
+2. When `enable = 1`, the output clock continuously toggles between `0` and `1`.
+3. The `HALF_PERIOD` parameter controls the time between clock transitions.
+4. When `enable = 0`, the output clock is set to `0`.
+5. The testbench verifies the clock waveform through simulation.
+
+## 🔌 Input
+
+| Signal   | Description                          |
+| -------- | ------------------------------------ |
+| `enable` | Enables or disables clock generation |
+
+## 📤 Output
+
+| Signal    | Description                     |
+| --------- | ------------------------------- |
+| `clk_out` | Generated periodic clock signal |
+
+## 🧪 Simulation
+
+The design is verified using a Verilog testbench.
+
+The waveform shows:
+
+* Enable signal
+* Generated clock signal
+* Clock transitions
+* Clock generation when enabled
+
+The simulation waveform is available at:
+
+```text
+simulation/waveform.png
+```
+
+## 🚀 Applications
+
+* Digital systems
+* FPGA projects
+* Counters
+* Timers
+* Sequential circuits
+* Synchronous digital systems
+
+## 👩‍💻 Author
+

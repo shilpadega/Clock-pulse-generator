@@ -1,0 +1,12 @@
+Time=0   | Enable=0 | Clock=0
+Time=10  | Enable=1 | Clock=0
+Time=15  | Enable=1 | Clock=1
+Time=20  | Enable=1 | Clock=0
+Time=25  | Enable=1 | Clock=1
+Time=30  | Enable=1 | Clock=0
+Time=35  | Enable=1 | Clock=1
+Time=40  | Enable=1 | Clock=0
+Time=45  | Enable=1 | Clock=1
+Time=50  | Enable=1 | Clock=0
+...
+Time=110 | Enable=0 | Clock=0
